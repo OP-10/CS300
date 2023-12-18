@@ -1,0 +1,42 @@
+Hashtable
+
+Code	Line Cost	# Times Executes	Total Cost
+for all courses	2	n	n
+if the course is the same as courseNumber	1	n	n
+print out the course information	1	1	1
+for each prerequisite of the course	2	n	n
+print the prerequisite course information	4	n	n
+Total Cost	9n + 1
+Runtime	O(n)
+
+Tree
+
+Code	Line Cost	# Times Executes	Total Cost
+for all courses	1	n	n
+if the course is the same as courseNumber	1	n	n
+print out the course information	2	1	1
+for each prerequisite of the course	1	n	n
+print the prerequisite course information	4	n	n
+Total Cost	8n + 1
+Runtime	O(n)
+
+
+
+
+
+
+
+
+
+Vector
+Code	Line Cost	# Times Executes	Total Cost
+for all courses	1	n	n
+if the course is the same as courseNumber	1	n	n
+print out the course information	2	1	1
+for each prerequisite of the course	1	n	n
+print the prerequisite course information	2	n	n
+Total Cost	6n + 1
+Runtime	1(n)
+
+
+The best structure to use is a Vector. This is because it hast the lowest total cost out of the three structures. This will make the runtime more efficient as less is needed to be processed when running the program compared to the other two structures
